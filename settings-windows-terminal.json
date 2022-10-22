@@ -1,0 +1,189 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "keys": "alt+shift+d"
+        }
+    ],
+    "alwaysShowTabs": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+    "initialCols": 70,
+    "initialPosition": "620,250",
+    "initialRows": 20,
+    "profiles": 
+    {
+        "defaults": {},
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "S\u00edmbolo del sistema"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "font": 
+                {
+                    "face": "Cascadia Code"
+                },
+                "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Ubuntu",
+                "opacity": 95,
+                "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
+            },
+            {
+                "colorScheme": "tokyonight",
+                "font": 
+                {
+                    "face": "Hack Nerd Font",
+                    "size": 12
+                },
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": true,
+                "name": "Ubuntu",
+                "opacity": 96,
+                "scrollbarState": "hidden",
+                "snapOnInput": true,
+                "source": "Windows.Terminal.Wsl",
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#262A33",
+            "black": "#000000",
+            "blue": "#2472C8",
+            "brightBlack": "#666666",
+            "brightBlue": "#2472C8",
+            "brightCyan": "#0FA8CD",
+            "brightGreen": "#05BC79",
+            "brightPurple": "#BC3FBC",
+            "brightRed": "#CD3131",
+            "brightWhite": "#E5E5E5",
+            "brightYellow": "#E5E512",
+            "cursorColor": "#F8F8F0",
+            "cyan": "#0FA8CD",
+            "foreground": "#E5E5E5",
+            "green": "#05BC79",
+            "name": "Andromeda",
+            "purple": "#BC3FBC",
+            "red": "#CD3131",
+            "selectionBackground": "#5A5C62",
+            "white": "#E5E5E5",
+            "yellow": "#E5E512"
+        },
+        {
+            "background": "#222225",
+            "black": "#000000",
+            "blue": "#006BB3",
+            "brightBlack": "#5D504A",
+            "brightBlue": "#4FC2FD",
+            "brightCyan": "#5D504A",
+            "brightGreen": "#B1D130",
+            "brightPurple": "#DE0071",
+            "brightRed": "#F07E18",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFF120",
+            "cursorColor": "#E0D9B9",
+            "cyan": "#384564",
+            "foreground": "#EDEDED",
+            "green": "#138034",
+            "name": "Highway",
+            "purple": "#6B2775",
+            "red": "#D00E18",
+            "selectionBackground": "#384564",
+            "white": "#EDEDED",
+            "yellow": "#FFCB3E"
+        },
+        {
+            "background": "#1A1B26",
+            "black": "#15161E",
+            "blue": "#6990e4",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#25c78b",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#b9495e",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#E0AF68",
+            "cyan": "#62b4e4",
+            "foreground": "#C0CAF5",
+            "green": "#05BC79",
+            "name": "tokyonight",
+            "purple": "#9e7adf",
+            "red": "#e05f77",
+            "selectionBackground": "#33467C",
+            "white": "#A9B1D6",
+            "yellow": "#d1a35d"
+        },
+        {
+            "background": "#24283B",
+            "black": "#1D202F",
+            "blue": "#7AA2F7",
+            "brightBlack": "#414868",
+            "brightBlue": "#7AA2F7",
+            "brightCyan": "#7DCFFF",
+            "brightGreen": "#9ECE6A",
+            "brightPurple": "#BB9AF7",
+            "brightRed": "#F7768E",
+            "brightWhite": "#C0CAF5",
+            "brightYellow": "#E0AF68",
+            "cursorColor": "#C0CAF5",
+            "cyan": "#7DCFFF",
+            "foreground": "#C0CAF5",
+            "green": "#9ECE6A",
+            "name": "tokyonight-storm",
+            "purple": "#BB9AF7",
+            "red": "#F7768E",
+            "selectionBackground": "#364A82",
+            "white": "#A9B1D6",
+            "yellow": "#E0AF68"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "useAcrylicInTabRow": false
+}
