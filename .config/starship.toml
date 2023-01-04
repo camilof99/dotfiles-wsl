@@ -1,6 +1,6 @@
 format = """
 [](#2E4053)\
-[ ](fg:#0A0A0A bg:#2E4053)\
+[ ](fg:#0A0A0A bg:#2E4053)\
 [](fg:#2E4053 bg:#11111b)\
 $directory\
 [](fg:#11111b bg:#2E4053)\
@@ -26,6 +26,7 @@ $character\
 
 right_format = "$cmd_duration"
 add_newline = true
+command_timeout = 10000
 
 [character]
 success_symbol = " [❯](#2ECC71)"
@@ -53,8 +54,9 @@ format = '[ $user ]($style)'
 [directory]
 style = "bg:#11111b fg:#A6ACAF"
 format = "[ $path ]($style)"
-truncation_length = 2
+truncation_length = 3
 truncation_symbol = "…/"
+home_symbol = ' '
 
 [directory.substitutions]
 "Documents" = " "
