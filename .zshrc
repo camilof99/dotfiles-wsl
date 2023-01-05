@@ -13,6 +13,7 @@ plugins=(
     zsh-syntax-highlighting
     zsh-autosuggestions
     docker
+    sudo
 )
 
 source $ZSH/oh-my-zsh.sh
